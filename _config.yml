@@ -1,11 +1,11 @@
 # Site settings
 author: Danielle Torres
-title: 
+title: Inspiring Software Engineer
 header-img: img/home-bg.png
 email: cruz_danielle_torres@yahoo.com
 copyright_name: Danielle Torres
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My Journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  DCTorres1987
