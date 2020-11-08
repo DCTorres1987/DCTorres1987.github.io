@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "The Final Swan Song -React/Redux"
-date:       2020-11-08 01:45:13 +0000
+title:      "Swan Song -React/Redux"
+date:       2020-11-07 20:45:13 -0500
 permalink:  the_final_swan_song_-react_redux
 ---
 
