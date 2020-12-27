@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Javascript Interview Question #1"
-date:       2020-12-27 00:19:43 +0000
+date:       2020-12-26 19:19:44 -0500
 permalink:  javascript_interview_question_1
 ---
 
@@ -28,7 +28,7 @@ The above solution will return *false* if bar is a function. In situations where
 
 The above solution will return *true* if bar is an array (e.g., if var bar = []; ). In situations where you want to return * false* for arrays, you can change the above solution to be:
 
-console.log((bar !== null) && (typeof bar === "object") && (toString.call(bar) !== "[object Array]"));
+`console.log((bar !== null) && (typeof bar === "object") && (toString.call(bar) !== "[object Array]"));`
 
 However, there's one other alternative that returns *false* for nulls, arrays, and functions, but *true* for objects:
 
