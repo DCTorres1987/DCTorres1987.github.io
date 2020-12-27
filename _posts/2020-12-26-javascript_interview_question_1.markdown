@@ -26,7 +26,7 @@ The above solution will return *false* if bar is a function. In situations where
 
 `console.log((bar !== null) && ((typeof bar === 'object') || (typeof bar === 'function')));`
 
-The above solution will return *true* if bar is an array (e.g., if var bar = []; ). In situations where you want to return * false* for arrays, you can change the above solution to be:
+The above solution will return *true* if bar is an array (e.g., if var bar = []; ). In situations where you want to return *false* for arrays, you can change the above solution to be:
 
 `console.log((bar !== null) && (typeof bar === "object") && (toString.call(bar) !== "[object Array]"));`
 
