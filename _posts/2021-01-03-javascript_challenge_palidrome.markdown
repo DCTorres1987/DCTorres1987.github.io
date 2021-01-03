@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Javascript Challenge Palidrome"
+title:      "Javascript Challenge: Palidrome"
 date:       2021-01-03 16:18:05 -0500
 permalink:  javascript_challenge_palidrome
 ---
