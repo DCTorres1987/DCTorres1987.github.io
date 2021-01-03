@@ -6,7 +6,7 @@ permalink:  javascript_challenge_palidrome
 ---
 
 
-A common Javascript Interview Question is to determining if a string is a Palindrome. A Palidrome is whether a string is the same reading frontward and backward.  One way to determine if a string is a palidrome is to use the following code:
+A common Javascript Interview Question is determining if a string is a Palindrome. A Palidrome is a string that reads the same frontward and backward.  One way to determine if a string is a palidrome is to use the following code:
 
 ```
 function palindrome(string) {
