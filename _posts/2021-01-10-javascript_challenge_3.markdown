@@ -29,9 +29,13 @@ func: function() {
 
 myObject.func()
 
-This challenge at first glace looks intimidating until each later is peeled back. The key word* this* its the object's property, that object itself which is why the first two console logs prints as expected. Then an immediately-invoked function expression (IIFE) is used and this referenced inside is the global Object(Window object). Therefore this.foo means Window.foo which is undefined.
+This challenge at first glace looks intimidating until each later is peeled back. The key word *this* its the object's property, that object itself which is why the first two console logs prints as expected. Then an immediately-invoked function expression (IIFE) is used and this referenced inside is the global Object(Window object). Therefore this.foo means Window.foo which is undefined.
 
 However, self is accessible inside that function which has value equal to that object. This allows console log to print the foo variable sucessfully.
 
 ![Imgur](https://i.imgur.com/WzMyHcs.png)
+
+Blogging about this challenge gave me a lot of knowledge on IIFE. Its very popular design pattern in JavaScript as it solves the problem of accidently polluting the global variables or functions by unknowingly giving same name to variables and functions as global variables and function names. Functions and variables defined in IIFE do not conflict with other functions and variables even if they have the same name. 
+
+Stay tuned for the next challenge...
 
