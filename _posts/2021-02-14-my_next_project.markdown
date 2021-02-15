@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Next Project"
-date:       2021-02-15 02:18:18 +0000
+date:       2021-02-14 21:18:19 -0500
 permalink:  my_next_project
 ---
 
@@ -16,13 +16,10 @@ The table relationships should be something like:
 
 * A User can have many notes
 * A Note belongs to a User
-
 * A Note can have many Categories (i.e. JavaScript, React.js)
 * A Category belongs to a Note
-
 * A Category can have many Subjects (i.e. variables in JavaScript)
 * A Subject belongs to a Category
-
 * A Subject can have many Notes
 * A Note Belongs to a Subject
 
