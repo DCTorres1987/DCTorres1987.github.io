@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Note Taker App Frontend"
-date:       2021-03-01 04:04:07 +0000
+date:       2021-02-28 23:04:07 -0500
 permalink:  note_taker_app_frontend
 ---
 
